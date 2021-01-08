@@ -1,2 +1,53 @@
-h1
-{}
+*{
+	font-family: Quicksand, Cantarell, Open Sans, Helvetica Neue, sans-serif;
+	color:#485365
+}
+
+body{
+	/* line-heigth is given in em
+	font styles can be summarised as
+	font: normal 16px Helvetica, Arial, san-serif; */
+	line-height: 1.6em;
+	padding: 20%;
+	margin:0px;
+}
+
+a{
+	text-decoration: none;
+	color:#303030
+}
+
+a:hover {
+	font-weight: bolder; 
+}
+
+.button{
+	background-color:#333
+	color:#fff
+	padding:10px 15px
+	border:none;
+}
+
+.button:hover{
+	color:485365;
+}
+
+.clr{
+	clear:both;
+}
+.container{
+	width:80%;
+	margin: auto;
+	box-sizing: border-box;
+}
+
+.container h1{
+	color:#485365;
+	font: bold, 16px ; 
+}
+
+.container h5{
+	font: normal, 9px ; 
+}
+
+
