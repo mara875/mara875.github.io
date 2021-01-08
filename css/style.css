@@ -50,4 +50,7 @@ a:hover {
 	font: normal, 9px ; 
 }
 
-
+img.resize {
+	max-width: 10%
+	max-height:10%;
+}
