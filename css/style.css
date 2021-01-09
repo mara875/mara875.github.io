@@ -1,15 +1,13 @@
 *{
 	font-family: Quicksand, Cantarell, Open Sans, Helvetica Neue, sans-serif;
-	color:#485365
+	color:#485365;
 }
 
 body{
 	/* line-heigth is given in em
 	font styles can be summarised as
 	font: normal 16px Helvetica, Arial, san-serif; */
-	line-height: 1.6em;
-	padding: 20%;
-	margin:0px;
+	line-height: 1.9em;
 }
 
 a{
@@ -29,17 +27,16 @@ a:hover {
 }
 
 .button:hover{
-	color:485365;
+	color:#485365;
 }
 
 .clr{
 	clear:both;
 }
+
 .container{
-	width:80%;
-	margin: auto;
-	box-sizing: border-box;
-	position:relative;
+	margin: 10%;
+	float:right;
 }
 
 .container h1{
@@ -51,7 +48,8 @@ a:hover {
 	font: normal, 9px ; 
 }
 
-img.resize {
-	max-width: 10%
-	max-height:10%;
+.resize {
+	max-width:20%;
+	max-height:20%;
+	white-space:pre;
 }
