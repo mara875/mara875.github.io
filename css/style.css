@@ -20,10 +20,6 @@ a:hover {
 	font-weight: bolder; 
 }
 
-.alt-search{
-	font-size: 9px
-}
-
 .button{
 	background-color:#333
 	color:#fff
@@ -53,6 +49,11 @@ a:hover {
 	font: normal, 9px ; 
 }
 
+.container h6{
+	font-size: 11px;
+	font-weight: normal;
+}
+
 .resize {
 	max-width:20%;
 	max-height:20%;
@@ -76,8 +77,7 @@ a:hover {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
-}
+}*/
 
 /* Change the color of links on hover */
 .search-mysearch a:hover {
@@ -93,13 +93,12 @@ a:hover {
 
 /* Style the search box inside the navigation bar */
 .search-mysearch input[type=text] {
-  float: right;
+  float: left;
   padding: 6px;
   border: none;
   margin-top: 8px;
   margin-right: 16px;
-  font-size: 17px;
-}
+}*/
 
 /* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
 @media screen and (max-width: 600px) {
@@ -113,4 +112,5 @@ a:hover {
   }
   .search-mysearch input[type=text] {
     border: 1px solid #ccc;
-  }
+  }*/
+
