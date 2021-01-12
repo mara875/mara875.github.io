@@ -38,7 +38,6 @@ a:hover {
 .container{
 	margin: 5%;
 	float:right;
-	position: fixed;
 	font: normal, 28px;
 }
 
@@ -52,9 +51,11 @@ a:hover {
 }
 
 .resize {
+	margin-top:10px;
 	max-width:40%;
 	max-height:40%;
 	white-space:pre;
+	position: relative;
 }
 
 html, body {
@@ -74,7 +75,9 @@ body {
   border: solid 4px #485365;
   display: inline-block;
   position: relative;
-  border-radius: 80px;
+  border-radius: 60px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 .search-box input[type="text"] {
   font-family: Quicksand, Cantarell, sans-serif;
