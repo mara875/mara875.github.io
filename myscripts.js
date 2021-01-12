@@ -1,15 +1,10 @@
+'use strict';
 
-//JAVASCRIPT to clear search text when the field is clicked 
+var searchBox = document.querySelectorAll('.search-box input[type="text"] + span');
 
-window.onload = function(){ 
-        //Get submit button
-        var submitbutton = document.getElementById("tfq");
-        //Add listener to submit button
-        if(submitbutton.addEventListener){
-                submitbutton.addEventListener("click", function() {
-                        if (submitbutton.value == 'Type to search + Enter ...'){
-                                submitbutton.value = '';
-                        }
-                });
-        }
-}
+searchBox.forEach((elm) => {
+	elm.addEventListener('click', () => {
+		elm.previousElementSibling.value = '';
+	});
+});
+
